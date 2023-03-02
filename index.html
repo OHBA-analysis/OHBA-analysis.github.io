@@ -49,36 +49,40 @@
 			<section id="projects" class="wrapper style2 alt">
 				<div class="inner">
 					<h2>Our projects</h2>
-					<!-- GLEAN -->
+					<!-- OSL -->
 					<div class="spotlight">
 						<div class="image">
 							<img src="images/osl-core-summary.png" alt="" />
 						</div>
 						<div class="content">
-							<h3>osl-core</h3>
-								<h4>Tools for analysis and visualiation of M/EEG data</h4>
-							<p>osl-core provides a set of tools build on Fieldtrip and SPM for analysis of MEG and EEG data in SPM12 format.</p>
+							<h3>osl</h3>
+								<h4>OHBA Software Library</h4>
+							<p>OSL is a python package built on MNE-python for the analysis of MEG and EEG data.
+							Includes RHINO, which uses FSL for surface extraction (as opposed to Freesurfer), as part of the coregistration.
+							Includes volumetric beamforming.</p>
 							<ul class="actions">
-							<li><a class="button alt" href="https://github.com/OHBA-analysis/osl-core">Get the code!</a></li>
+							<li><a class="button alt" href="https://github.com/OHBA-analysis/osl">Get the code!</a></li>
 							</ul>
                         </div>
                     </div>
 
-                    <!-- HMM-MAR -->
+
+					<!-- OSL-Dynamics -->
                     <div class="spotlight">
                         <div class="content">
-                            <h3>HMM-MAR</h3>
-                                <h4>Segmentation and characterisation of transient connectivity</h4>
-                            <p>HMM-MAR is a Matlab toolbox to identify recurrent brain states of distinct multi-region spectral properties,
-                            providing parametric and nonparametric estimations of power, coherence and partial directed coherence
-                            for each state</p>
+                            <h3>osl-dynamics</h3>
+                                <h4>Models for inferring dynamics and functional connectivity in neuroimaging data.</h4>
+                            <p>OSL-dynamics is a python package for inferring dynamics and functional connectivity in neuroimaging data.
+								Includes python version of the HMM, and Dynemo (Dynamic Network Modes).
+								Can also compute static power spectra and functional connectivity.
+								Uses Tensorflow.</p>
                             <ul class="actions">
-                                <li><a class="button alt" href="https://github.com/OHBA-analysis/HMM-MAR">Get the code!</a></li>
+                                <li><a class="button alt" href="https://github.com/OHBA-analysis/osl-dynamics">Get the code!</a></li>
                             </ul>
                         </div>
 
-                    <div class="image">
-                        <img src="images/artwork.gif" alt="" />
+					<div class="image">
+                        <img src="images/dynemo.jpg" alt="" />
                     </div>
 					</div>
 
@@ -102,19 +106,23 @@
                         </div>
 					</div>
 
-                    <!-- MEG ROI nets -->
+                    <!-- HMM-MAR -->
                     <div class="spotlight">
                         <div class="content">
-                            <h3>MEG ROI nets</h3>
-                                <h4>Region of Interest Network Analysis for MEG</h4>
-                            <p>ROI nets is a Matlab toolbox for performing parcellation, leakage correction and network analysis in MEG data, written for SPM12.</p>
+                            <h3>HMM-MAR</h3>
+                                <h4>Segmentation and characterisation of transient connectivity</h4>
+                            <p>HMM-MAR is a Matlab toolbox to identify recurrent brain states of distinct multi-region spectral properties,
+                            providing parametric and nonparametric estimations of power, coherence and partial directed coherence
+                            for each state</p>
                             <ul class="actions">
-                                <li><a class="button alt" href="https://github.com/OHBA-analysis/MEG-ROI-nets">Get the code!</a></li>
+                                <li><a class="button alt" href="https://github.com/OHBA-analysis/HMM-MAR">Get the code!</a></li>
                             </ul>
                         </div>
+
                     <div class="image">
-                        <img src="images/corrected_whole_brain_alpha_band_resting_connectome.gif" alt="" />
+                        <img src="images/artwork.gif" alt="" />
                     </div>
+					</div>
 
 					</div>
 
